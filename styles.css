@@ -1,0 +1,69 @@
+/* Общие стили */
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Шапка */
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+   display: flex;
+   justify-content: center;
+  }
+  
+  .navbtn {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #loginbtn {
+    margin-top: 20px;
+    display: block;
+  }
+  
+  /* Основное содержимое */
+  main {
+    padding: 20px;
+  }
+  
+  .ins {
+    margin-bottom: 10px;
+  }
+  
+  /* Футер */
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact {
+    margin-bottom: 10px;
+  }
+  
+  .contact_text {
+    margin: 5px 0;
+  }
+  
+  /* Дополнительные стили для элементов формы */
+  input[type="text"], input[type="button"] {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="button"] {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Дополнительные стили для результатов */
+  label {
+    font-weight: bold;
+    margin-left: 10px;
+  }
